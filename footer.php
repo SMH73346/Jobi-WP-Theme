@@ -10,15 +10,15 @@
                 <div class="row">
                   <div class="col-lg-3 col-md-12 footer-intro mb-15">
                     <div class="logo mb-15">
-                      <a href="index.html" class="d-flex align-items-center">
-                        <img src="images/logo/logo_01.png" alt="Jobi logo" />
+                      <a href="home" class="d-flex align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo_01.png" alt="Jobi logo" />
                       </a>
                       <p>
                         Jobi connects highly-skilled developers from emerging
                         nations such as the Philippines and India with small and
                         medium-sized businesses in the US and Canada.
                       </p>
-                      <a href="/Find_A_Developer.html" class="footer-btn"
+                      <a href="Find_A_Developer" class="footer-btn"
                         >Find A Developer</a
                       >
                     </div>
@@ -27,15 +27,15 @@
                   <div class="col-lg-2 col-md-4 col-5 mb-20">
                     <h5 class="footer-title mb-10">Browse</h5>
                     <ul class="footer-nav-link style-none">
-                      <li ><a href="/index.html" class="mb-0">Home</a></li>
-                      <li ><a href="/AboutUs.html" class="mb-0">About Us</a></li>
-                      <li ><a href="/Resource_Center.html" class="mb-0">Resources</a></li>
-                      <li ><a href="/Find_Jobs.html" class="mb-0">Apply for a Job</a></li>
+                      <li ><a href="home" class="mb-0">Home</a></li>
+                      <li ><a href="about-us" class="mb-0">About Us</a></li>
+                      <li ><a href="resource-center" class="mb-0">Resources</a></li>
+                      <li ><a href="find-jobs" class="mb-0">Apply for a Job</a></li>
                       <li >
-                        <a href="/Find_A_Developer.html" class="mb-0">Find a Developer</a>
+                        <a href="find-a-developer" class="mb-0">Find a Developer</a>
                       </li>
                       <li>
-                        <a href="/ContactUs.html" class="btn-link mt-15 p-0"
+                        <a href="contact-us" class="btn-link mt-15 p-0"
                           ><i class="fa-solid fa-arrow-right mr-3"></i>Contact Us</a
                         >
                       </li>
@@ -47,10 +47,10 @@
                       <li><a href="/ReactJs.html" class="mb-0">React.js</a></li>
                       <li><a href="blog-v2.html" class="mb-0">Angular.js</a></li>
                       <li><a href="faq.html" class="mb-0">Python</a></li>
-                      <li><a href="/ContactUs.html" class="mb-0">Ruby on Rails</a></li>
-                      <li><a href="/ContactUs.html" class="mb-0">Javascript</a></li>
+                      <li><a href="contact-us" class="mb-0">Ruby on Rails</a></li>
+                      <li><a href="contact-us" class="mb-0">Javascript</a></li>
                       <li>
-                        <a href="/Find_A_Developer.html" class="btn-link mt-15 p-0"
+                        <a href="Find_A_Developer" class="btn-link mt-15 p-0"
                           ><i class="fa-solid fa-arrow-right mr-3"></i>See All Skills</a>
                       </li>
                     </ul>
@@ -59,13 +59,13 @@
                     <h5 class="footer-title mb-10">Browse by role</h5>
                     <ul class="footer-nav-link style-none">
                       <li>
-                        <a href="/ContactUs.html" class="mb-0">Full-Stack Developer</a>
+                        <a href="contact-us" class="mb-0">Full-Stack Developer</a>
                       </li>
-                      <li><a href="/ContactUs.html" class="mb-0">Back-End Developer</a></li>
-                      <li><a href="/ContactUs.html" class="mb-0">Front-End Developer</a></li>
-                      <li><a href="/ContactUs.html" class="mb-0">Mobile Developer</a></li>
-                      <li><a href="/ContactUs.html" class="mb-0">App Developer</a></li>
-                      <li><a href="/Find_A_Developer.html" class="btn-link p-0 mt-15"> 
+                      <li><a href="contact-us" class="mb-0">Back-End Developer</a></li>
+                      <li><a href="contact-us" class="mb-0">Front-End Developer</a></li>
+                      <li><a href="contact-us" class="mb-0">Mobile Developer</a></li>
+                      <li><a href="contact-us" class="mb-0">App Developer</a></li>
+                      <li><a href="Find_A_Developer" class="btn-link p-0 mt-15"> 
                         <i class="fa-solid fa-arrow-right mr-3"></i>See All Roles</a>
                         </li>
                     </ul>
@@ -90,7 +90,7 @@
                       class="border-bottom d-flex justify-content-lg-start align-items-center mt-5 pb-5"
                     >
                       <i class="fa-solid mr-10 fa-envelope fa-xl"></i>
-                      <span> contact@codev.com</span>
+                      <span> contact@jobi.com</span>
                     </div>
                     <div class="col-lg-4 order-lg-3 mb-10 mt-5">
                       <ul class="style-none d-flex order-lg-last social-icon">
@@ -135,9 +135,9 @@
                   <div class="col display-flex">
                     <p class="text-center m-0 color-white">Copyright @2023 jobi inc.</p>
                     <span class="ml-5 mr-5 color-white">|</span>
-                    <a href="ContactUs.html" class="color-white">Privacy & Terms.</a>
+                    <a href="contact-us" class="color-white">Privacy & Terms.</a>
                     <span class="ml-5 mr-5 color-white">|</span>
-                    <a href="ContactUs.html" class="color-white">Contact Us</a>
+                    <a href="contact-us" class="color-white">Contact Us</a>
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@
 
     <!-- Fontawesome -->
     <script
-      src="<?php echo get_template_directory_uri(); ?>/https://kit.fontawesome.com/4365bb836b.js"
+      src="https://kit.fontawesome.com/4365bb836b.js"
       crossorigin="anonymous"
     ></script>
 
